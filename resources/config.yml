@@ -1,0 +1,35 @@
+#  ____  ______ _______ _______ ______ _____  ______ _   _ _____  ______ _____   _____ _    _ ______  _____ _______ _____
+# |  _ \|  ____|__   __|__   __|  ____|  __ \|  ____| \ | |  __ \|  ____|  __ \ / ____| |  | |  ____|/ ____|__   __/ ____|
+# | |_) | |__     | |     | |  | |__  | |__) | |__  |  \| | |  | | |__  | |__) | |    | |__| | |__  | (___    | | | (___
+# |  _ <|  __|    | |     | |  |  __| |  _  /|  __| | . ` | |  | |  __| |  _  /| |    |  __  |  __|  \___ \   | |  \___ \
+# | |_) | |____   | |     | |  | |____| | \ \| |____| |\  | |__| | |____| | \ \| |____| |  | | |____ ____) |  | |  ____) |
+# |____/|______|  |_|     |_|  |______|_|  \_\______|_| \_|_____/|______|_|  \_\\_____|_|  |_|______|_____/   |_| |_____/
+# Use https://minecraft.fandom.com/wiki/Sounds.json/Bedrock_Edition_values or https://www.digminecraft.com/lists/sound_list_pe.php
+# for Sound Values
+
+# Config Version; Internal Usage
+version: 1
+
+# All the Inter-Workings of the Plugin
+enderchest:
+
+  # Disabling this will make it so players can't access the enderchest (true/false)
+  enabled: true
+
+  # Name of the Inventory when Opened (string)
+  inventory-name: "Enderchest Inventory"
+
+  # Disabling this will make it so players won't hear a sound when opening the enderchest (true/false)
+  play-sound-on-open: true
+
+  # Name of the Sound that will be played when the Inventory is Opened (string)
+  inventory-open-sound: "random.enderchestopen"
+
+  # Disabling this will make it so players won't hear a sound when closing the enderchest (true/false)
+  play-sound-on-close: true
+
+  # Name of the Sound that will be played when the Inventory is Closed (string)
+  inventory-close-sound: "random.enderchestclosed"
+
+  # Enabling this will make it so players can't open Enderchest Blocks (true/false)
+  block-disabled: false
